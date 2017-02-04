@@ -10,7 +10,7 @@ nav {
   height: 100vh;
   align-items: stretch;
 }
-a {
+nav a {
   flex: 1;
   display: flex;
   align-items: center;
@@ -21,11 +21,11 @@ a {
   font-size: 1.25em;
   transition: all 0.4s;
 }
-a:hover {
+nav a:hover {
   background: #aaa;
 }
 
-a::after {
+nav a::after {
   font-size: 0.75em;
   content: '❯';
   margin-top: -0.25em;
@@ -36,4 +36,17 @@ a::after {
 a:not(:hover)::after {
   transform: translateX(-2em);
   opacity: 0;
+}
+
+.meta {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-bottom: 0.5em;
+  padding-right: 1em;
+  text-align: right;
+  color: white;
+}
+.meta a {
+  color: white;
 }
