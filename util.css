@@ -1,5 +1,4 @@
-/* Fira Code */
-@import "//cdn.rawgit.com/tonsky/FiraCode/94f1d8f/distr/fira_code.css";
+@import url('style.css');
 
 /* sections */
 body {
@@ -11,7 +10,7 @@ body {
   align-items: center;
   text-align: center;
   font-size: 2.85vmax;
-  font-family: 'Fira Code', monospace;
+  font-family: Fira Code, monospace;
 }
 
 form {

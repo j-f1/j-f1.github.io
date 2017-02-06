@@ -1,6 +1,5 @@
-body {
-  margin: 0;
-}
+@import url('style.css');
+
 nav {
   list-style-type: none;
   margin: 0;
@@ -48,8 +47,10 @@ a:not(:hover)::after {
   color: white;
   display: flex;
   align-items: center;
+  pointer-events: none;
 }
 .meta a {
+  pointer-events: initial;
   color: white;
   line-height: 0;
   margin: 0 0.5em;
