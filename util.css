@@ -182,3 +182,8 @@ label.fancy-check::after {
 ::-webkit-scrollbar-thumb:active {
     background: #666;
 }
+
+.meta {
+  position: relative;
+  color: #666;
+}

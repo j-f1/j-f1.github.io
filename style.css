@@ -17,7 +17,7 @@ code {
   right: 0;
   padding-bottom: 0.5em;
   padding-right: 0.5em;
-  text-align: right;
+  justify-content: flex-end;
   color: white;
   display: flex;
   align-items: center;
