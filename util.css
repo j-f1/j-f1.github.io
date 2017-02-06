@@ -187,3 +187,12 @@ label.fancy-check::after {
   position: relative;
   color: #666;
 }
+
+ul.main {
+  list-style-type: none;
+  color: white;
+  max-height: 68vh;
+  overflow: auto;
+  user-select: initial;
+  cursor: text;
+}
