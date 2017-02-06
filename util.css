@@ -3,6 +3,7 @@
 /* sections */
 body {
   background-color: #333;
+  color: white;
   height: 100vh;
   margin: 0;
   display: flex;
