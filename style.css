@@ -10,3 +10,22 @@ body {
 code {
   font-family: Fira Code, monospace;
 }
+
+.meta {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-bottom: 0.5em;
+  padding-right: 0.5em;
+  text-align: right;
+  color: white;
+  display: flex;
+  align-items: center;
+  pointer-events: none;
+}
+.meta a {
+  pointer-events: initial;
+  color: white;
+  line-height: 0;
+  margin: 0 0.5em;
+}
