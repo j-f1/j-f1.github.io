@@ -42,3 +42,7 @@ a:not(:hover)::after {
   transform: translateX(-2em);
   opacity: 0;
 }
+nav a.mini {
+  flex: initial;
+  height: 2em;
+}
