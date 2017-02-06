@@ -4,6 +4,7 @@
 body {
   margin: 0;
   font-family: Merriweather Sans, sans-serif;
+  user-select: none;
 }
 
 code {
