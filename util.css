@@ -183,8 +183,10 @@ label.fancy-check::after {
     background: #666;
 }
 
-.meta {
+footer .meta {
   position: relative;
+}
+.meta {
   color: #666;
 }
 
