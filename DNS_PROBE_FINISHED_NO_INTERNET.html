@@ -661,7 +661,6 @@ Runner.prototype = {
       var constructor = window.AudioContext || window.webkitAudioContext || window.WebkitAudioContext;
       if (!constructor) {return;} // unsupported
       this.audioContext = new constructor();
-      alert(this.audioContext);
 
       var resourceTemplate =
           document.getElementById(this.config.RESOURCE_TEMPLATE_ID).content;
