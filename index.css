@@ -26,10 +26,15 @@ nav a:hover {
 
 nav a::after {
   content: '→';
-  font-family: Fira Code, monospace;
   margin-left: 0.5em;
   position: relative;
   transition: all 0.4s;
+}
+nav a:not(.source-only)::after {
+  font-family: Fira Code, monospace;
+}
+nav a.source-only::after {
+  content: url('/img/github.svg') ' Source';
 }
 a:not(:hover)::after {
   transform: translateX(-2em);
