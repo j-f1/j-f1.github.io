@@ -27,11 +27,9 @@ footer {
   font-size: 1rem;
 }
 
-footer a {
+a, a:visited {
   color: #AAA;
 }
-
-
 
 /* selection */
 ::selection {
