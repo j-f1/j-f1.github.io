@@ -29,6 +29,8 @@ nav a::after {
   margin-left: 0.5em;
   position: relative;
   transition: all 0.4s;
+  width: 0;
+  white-space: nowrap;
 }
 nav a:not(.source-only)::after {
   font-family: Fira Code, monospace;
