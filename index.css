@@ -25,9 +25,8 @@ nav a:hover {
 }
 
 nav a::after {
-  font-size: 0.75em;
-  content: '❯';
-  margin-top: -0.25em;
+  content: '→';
+  font-family: Fira Code, monospace;
   margin-left: 0.5em;
   position: relative;
   transition: all 0.4s;
