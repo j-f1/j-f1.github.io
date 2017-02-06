@@ -3,8 +3,10 @@
 
 body {
   margin: 0;
-  font-family: Merriweather Sans, sans-serif;
   user-select: none;
+}
+body, .meta {
+  font-family: Merriweather Sans, sans-serif;
 }
 
 code {
