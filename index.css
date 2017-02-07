@@ -25,7 +25,7 @@ nav a:hover {
 }
 
 nav a::after {
-  content: '→';
+  content: '->>';
   margin-left: 0.5em;
   position: relative;
   transition: all 0.4s;
