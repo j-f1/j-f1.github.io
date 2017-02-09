@@ -38,6 +38,11 @@ nav a:not(.source-only)::after {
 nav a.source-only::after {
   content: url('/img/github.svg') ' Source';
 }
+nav a.npm::after {
+  content: url('/img/npm.svg');
+  top: 0.2em;
+}
+
 a:not(:hover)::after {
   transform: translateX(-2em);
   opacity: 0;
