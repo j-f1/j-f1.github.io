@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/j_f
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://j-f1.github.io
+  * I am j_f (https://keybase.io/j_f) on keybase.
+  * I have a public key ASDP4ZOty1cZs_hiUV3tHl-AUC_crezmEtI9y4RQKbf1qgo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120cfe193adcb5719b3f862515ded1e5f80502fdcadece612d23dcb845029b7f5aa0a",
+            "host": "keybase.io",
+            "kid": "0120cfe193adcb5719b3f862515ded1e5f80502fdcadece612d23dcb845029b7f5aa0a",
+            "uid": "5be3e9b89708ead616cc91f51bbbf619",
+            "username": "j_f"
+        },
+        "service": {
+            "hostname": "j-f1.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.18"
+    },
+    "ctime": 1487008037,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1487008031,
+        "hash": "f83b2d21efad638bcf5ecb60062a87df9e2212c89027a0b27ed1599d2a9d1d00c4216e10908914756c805743e7a265ac26f0d98ceb4f6329fe49a9fac9f401f1",
+        "seqno": 884955
+    },
+    "prev": "8430a39b8635991218a7a4e2cd76cac6de0152dc1a6c7296328ec45dcc82487c",
+    "seqno": 6,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgz+GTrctXGbP4YlFd7R5fgFAv3K3s5hLSPcuEUCm39aoKp3BheWxvYWTFAvF7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwY2ZlMTkzYWRjYjU3MTliM2Y4NjI1MTVkZWQxZTVmODA1MDJmZGNhZGVjZTYxMmQyM2RjYjg0NTAyOWI3ZjVhYTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwY2ZlMTkzYWRjYjU3MTliM2Y4NjI1MTVkZWQxZTVmODA1MDJmZGNhZGVjZTYxMmQyM2RjYjg0NTAyOWI3ZjVhYTBhIiwidWlkIjoiNWJlM2U5Yjg5NzA4ZWFkNjE2Y2M5MWY1MWJiYmY2MTkiLCJ1c2VybmFtZSI6ImpfZiJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiai1mMS5naXRodWIuaW8iLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4xOCJ9LCJjdGltZSI6MTQ4NzAwODAzNywiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDg3MDA4MDMxLCJoYXNoIjoiZjgzYjJkMjFlZmFkNjM4YmNmNWVjYjYwMDYyYTg3ZGY5ZTIyMTJjODkwMjdhMGIyN2VkMTU5OWQyYTlkMWQwMGM0MjE2ZTEwOTA4OTE0NzU2YzgwNTc0M2U3YTI2NWFjMjZmMGQ5OGNlYjRmNjMyOWZlNDlhOWZhYzlmNDAxZjEiLCJzZXFubyI6ODg0OTU1fSwicHJldiI6Ijg0MzBhMzliODYzNTk5MTIxOGE3YTRlMmNkNzZjYWM2ZGUwMTUyZGMxYTZjNzI5NjMyOGVjNDVkY2M4MjQ4N2MiLCJzZXFubyI6NiwidGFnIjoic2lnbmF0dXJlIn2jc2lnxED9l8sSPejJ0lDPbCcrFavVMFcuXvWcHIzYBi2epFaqidoXOFCNfCeyl/TbN+qeP6BEWNGHKDy55SN5WMSLdmcHqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgPoOODWyoxK8s6wuzhbxh6Ut1EPw0hCuxBWqUuMk7S+2jdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/j_f
+
+==================================================================
