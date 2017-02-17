@@ -24,6 +24,7 @@ code {
   display: flex;
   align-items: center;
   pointer-events: none;
+  -webkit-user-select: none;-moz-user-select: none;-ms-user-select: none; /* sigh so much for -prefix-free */
   user-select: none;
 }
 .meta a {
