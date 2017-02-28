@@ -20,6 +20,26 @@
       <a href="https://github.com/j-f1/quick-git" class="source-only mini"><code>quick-git</code></a>
       <a href="DNS_PROBE_FINISHED_NO_INTERNET.html" class="mini"><code>DNS_PROBE_FINISHED_NO_INTERNET</code></a>
     </nav>
+    <form class="contact" action="https://formspree.io/support@twopointzero.us" method="POST">
+      <input type="checkbox" id="show_contact">
+      <label class="header" for="show_contact"><span>Contact</span><i></i></label>
+      <section class="body">
+        <button type="submit" tabindex="4">Send</button>
+        <textarea id="contact_message" name="message" tabindex="3" required placeholder=" " rows="5"></textarea>
+        <label for="contact_message">
+          Message
+        </label>
+        <input type="text" name="_gotcha" style="display:none">
+        <input id="contact_subject" type="text" name="_subject" required tabindex="2" placeholder=" ">
+        <label for="contact_subject">
+          Subject
+        </label>
+        <input id="contact_email" type="email" name="email" required tabindex="1" placeholder=" ">
+        <label for="contact_email">
+          Your email
+        </label>
+      </section>
+    </form>
     <div class="meta">
       © 2017 Jed Fox
       • <a href="https://github.com/j-f1"><img src="img/github.svg" alt="GitHub Profile"></a>
