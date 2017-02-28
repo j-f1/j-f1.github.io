@@ -33,3 +33,113 @@ code {
   line-height: 0;
   margin: 0 0.5em;
 }
+
+.contact {
+  color: white;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background: #999;
+  width: 300px;
+  border-top-right-radius: 3px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.contact .header {
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  background: #666;
+  height: 2em;
+  cursor: pointer;
+}
+#show_contact {
+  display: none;
+}
+.contact .header span {
+  flex: 1;
+}
+.contact .header i::after,
+.contact .header i::before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  right: 1em;
+  width: 1em;
+  height: 0.1em;
+  background: currentColor;
+}
+.contact .header i::before {
+  transform: scaleY(0) rotate(-90deg);
+  transition: transform 0.4s;
+}
+#show_contact:not(:checked) + * i::before {
+  transform: scaleY(1) rotate(-90deg);
+}
+.contact .body {
+  display: flex;
+  flex-direction: column-reverse;
+  flex: 1;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+.contact #show_contact:checked ~ .body {
+  height: 275px;
+  opacity: 1;
+}
+.contact .body textarea {
+  flex: 1;
+  resize: none;
+}
+.contact .body input, .contact .body textarea {
+  padding-left: 0.5rem;
+  color: white;
+  appearance: none;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #aaa;
+  font-size: 1em;
+  order: 0;
+  font-family: inherit;
+  transition: border-color 0.4s;
+}
+.contact .body input:focus, .contact .body textarea:focus {
+  outline: none;
+  border-bottom-color: #ccc;
+}
+.contact .body label {
+  margin-left: 0.5rem;
+  font-size: 0.75em;
+  color: #ccc;
+  height: 0.75rem;
+  transition: all 0.4s;
+  position: relative;
+  top: 0;
+  line-height: 1rem;
+}
+.contact .body textarea:focus + label, .contact .body input:focus + label {
+  color: white;
+}
+.contact .body textarea:placeholder-shown:not(:focus) + label,
+.contact .body input:placeholder-shown:not(:focus) + label {
+  top: 1em;
+  font-size: 1em;
+  pointer-events: none;
+}
+
+.contact .body button {
+  -webkit-appearance: none;
+  background: transparent;
+  border: none;
+  color: white;
+  height: 2em;
+  cursor: pointer;
+  transition: background 0.4s;
+}
+.contact .body button:hover, .contact .body button:focus {
+  outline: none;
+  background: #aaa;
+}
