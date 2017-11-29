@@ -1,3 +1,5 @@
+# j-f1.github.io
+
 ==================================================================
 https://keybase.io/j_f
 --------------------------------------------------------------------
@@ -45,6 +47,84 @@ To do so, I am signing this object:
 which yields the signature:
 
 hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgz+GTrctXGbP4YlFd7R5fgFAv3K3s5hLSPcuEUCm39aoKp3BheWxvYWTFAvF7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwY2ZlMTkzYWRjYjU3MTliM2Y4NjI1MTVkZWQxZTVmODA1MDJmZGNhZGVjZTYxMmQyM2RjYjg0NTAyOWI3ZjVhYTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwY2ZlMTkzYWRjYjU3MTliM2Y4NjI1MTVkZWQxZTVmODA1MDJmZGNhZGVjZTYxMmQyM2RjYjg0NTAyOWI3ZjVhYTBhIiwidWlkIjoiNWJlM2U5Yjg5NzA4ZWFkNjE2Y2M5MWY1MWJiYmY2MTkiLCJ1c2VybmFtZSI6ImpfZiJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiai1mMS5naXRodWIuaW8iLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4xOCJ9LCJjdGltZSI6MTQ4NzAwODAzNywiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDg3MDA4MDMxLCJoYXNoIjoiZjgzYjJkMjFlZmFkNjM4YmNmNWVjYjYwMDYyYTg3ZGY5ZTIyMTJjODkwMjdhMGIyN2VkMTU5OWQyYTlkMWQwMGM0MjE2ZTEwOTA4OTE0NzU2YzgwNTc0M2U3YTI2NWFjMjZmMGQ5OGNlYjRmNjMyOWZlNDlhOWZhYzlmNDAxZjEiLCJzZXFubyI6ODg0OTU1fSwicHJldiI6Ijg0MzBhMzliODYzNTk5MTIxOGE3YTRlMmNkNzZjYWM2ZGUwMTUyZGMxYTZjNzI5NjMyOGVjNDVkY2M4MjQ4N2MiLCJzZXFubyI6NiwidGFnIjoic2lnbmF0dXJlIn2jc2lnxED9l8sSPejJ0lDPbCcrFavVMFcuXvWcHIzYBi2epFaqidoXOFCNfCeyl/TbN+qeP6BEWNGHKDy55SN5WMSLdmcHqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgPoOODWyoxK8s6wuzhbxh6Ut1EPw0hCuxBWqUuMk7S+2jdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/j_f
+
+==================================================================
+
+# code.twopointzero.us
+
+==================================================================
+https://keybase.io/j_f
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://code.twopointzero.us
+  * I am j_f (https://keybase.io/j_f) on keybase.
+  * I have a public key with fingerprint D3D2 CB4B AD51 378F DF8E  BFDF 0B61 D18E A54B 47E1
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120cfe193adcb5719b3f862515ded1e5f80502fdcadece612d23dcb845029b7f5aa0a",
+      "fingerprint": "d3d2cb4bad51378fdf8ebfdf0b61d18ea54b47e1",
+      "host": "keybase.io",
+      "key_id": "0b61d18ea54b47e1",
+      "kid": "010107e0d1e5c32466a8ca3bb4faf4af459f9078cc01cab914c9832cd848b39975dc0a",
+      "uid": "5be3e9b89708ead616cc91f51bbbf619",
+      "username": "j_f"
+    },
+    "service": {
+      "hostname": "code.twopointzero.us",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1511996184,
+  "expire_in": 157680000,
+  "prev": "89e302ff9afee266ddbcbd77eb29125797b8651f39584d2ebba506bf17d81046",
+  "seqno": 33,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.76
+Comment: https://keybase.io/crypto
+
+yMN3AnicZVJ/UFRFHD9+SEHDgMMwww2J8DQkIXj73r1fiA6iwuiVcxUUQnW8fbuP
+u0PunXcHiERlEo02xUw5/UCooYGJHyoleP4iVKYgiEKylNGQaOYgckSiQApl2iP9
+q92d3dnvfj6f72e/u1+FBuhC/B6Rh99pMmaN+317sbZEl7d6Q1QFBTVUTqVWUEV4
+ecG7EXa5zUVWRKVSNGBoRcVAYmWkQE4AEmRVkWc4wCGMAOZUkeZoRkWKjLCCecAg
+hiVI0UCiEhRUTpZpmUqiVKu9EDsdTqvdTWQRixgFGqCMOMAKoopUEUMy05AHCIhY
+5gzQIGBAiBbN5WMQc1B24WSrRmJkY/7P3v/xD3yTLmDaZ1FhGQPPy6IisxAaVFk1
+kMFJqkQLoqLQQJGhBAyKJLKMgkSDCFlJEjikLPsuWZbjIGaxBEVJoEkyxANeUSSg
+cgBCqPJA8gFd2GmXizFB28wqVZlEkUCpVcG+mvoucf9Q0RBOdpdpDo2UYh92askl
+LkJ3ODW3pmi7CcLidjtSfQLucoePUYah+b6WGVrtiFSSEEqx02XV7FQqIEjFbfWJ
+Aw4ASeKBaEii8F6H1YnNVh+CE3iRJs2XBpcSSVHCLHk1VZJVjBmeRwgqEAkChowE
+GE6QBCjyHFBZiRMNiMEQyhzNQxUISAS0gad8t9tj16hUliU+5UKi6bIW2mV3iRNT
+lT0XXwjU+YXoglb4+76YLiQ4/MHHc+eE61q/7jSdMtZOOyK2LF7vb/ym+9PhSNls
+mWw4+vv42HfeW3kVifyr6fN5AzM1YbPPiLaIY23rlmyjrxenuWdj7lR/qZ9nhjzH
+XYFX8/Yn1N04tD8jUf3DqE87v5D0d/bt7pjybGdi89nSE2vrC273BugXK5/gK64l
+pVxo4HblP3tvMb7uzYCBg+cmK/0HbYcHpw732WyrRsWIug9D83PbMramt0S2V709
+/MkIs5BRmznyeW+HfvOcmduWKTbntLzyUMzDG5I3Zgac3ZoyfiZp+nH95UdNUXd7
+coKrh8+37vvTP+vuL2DvuQM5hfELJqcnqO+E54f3/6q6tO3Xybq+l8Omy+J2Hpz0
+NnR/ULWuKYfTevfMedmxgVPvrbl+eqQ/d033eO+Mhy8POWocCn/LPPVu8ciUt+jj
+weMxZyx95prYtpvxvY1ZRcrpK6FB2GTUhuc+q57pSy7YPhG7tOUqMK6/tHFT29qV
+r61Pj54vSuhq7vn5xaW8dNMX7YIUeOtAzaF/YjxNafZK78q+juAji9UTkbML1VOR
+9dnGj7iTNU1ho5nfR18+1h7d7Ijrn+9KeSl2aMdj97w1bzzl+u05Nd9S8Hyufqdf
+62ZHmtLyU1u9JW3KL2HXDX3QzTjJb6ixq3NVYq8a2Bn05Mlr5iO2FWNBM56Q7Vdi
+2dQfV6MdponQ7E0dsRdino7Cd4r/BZAAxdc=
+=9Irt
+-----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
