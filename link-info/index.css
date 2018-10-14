@@ -1,0 +1,92 @@
+html, body {
+  height: 100%;
+}
+
+html {
+  display: table;
+  width: 100%;
+}
+
+body {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 230%;
+  line-height: 1em;
+  white-space: nowrap;
+}
+
+[title] {
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box; /*border-bottom:.5em solid;*/
+  line-height: 2em;
+  cursor: pointer;
+}
+
+[title]:after {
+  content: attr(title);
+  font-family: monospace;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  left: 50%;
+  margin-left: -50%;
+  font-size: 40%;
+  line-height: 1.5;
+  background: #666;
+  color: transparent;
+}
+
+[title]:hover:after,
+:target:after {
+  background: #999;
+  color: white;
+}
+
+[title] [title]:after {
+  margin-top: calc(1.5em - 1px);
+}
+
+[title] [title] [title]:after {
+  margin-top: calc(3em - 2px);
+}
+
+[title]:hover,
+:target {
+  position: relative;
+  z-index: 1;
+  outline: 50em solid rgba(51, 51, 51, .8);
+}
+
+#host:not(.has-port) #port {
+  display: none;
+}
+#port {
+  order: 2;
+}
+
+#host.has-port {
+  display: inline-flex;
+}
+#host.has-port:before {
+  order: 1;
+  content: ':';
+}
+
+.remove-hash, .set-url {
+  cursor: pointer;
+  color: #666;
+  z-index: 2;
+  width: 0;
+  position: relative;
+}
+.remove-hash {
+  left: 0.5em;
+}
+.set-url {
+  right: 1em;
+}
+.meta {
+  z-index: 1;
+}
