@@ -9,7 +9,7 @@ body, .meta {
   font-family: Merriweather Sans, sans-serif;
 }
 
-code {
+code, nav a.npm {
   font-family: Fira Code, monospace;
 }
 
@@ -20,7 +20,7 @@ code {
   padding-bottom: 0.5em;
   padding-right: 0.5em;
   justify-content: flex-end;
-  color: white;
+  color: #444;
   display: flex;
   align-items: center;
   pointer-events: none;
@@ -29,7 +29,7 @@ code {
 }
 .meta a {
   pointer-events: initial;
-  color: white;
+  color: #444;
   line-height: 0;
   margin: 0 0.5em;
 }
@@ -39,7 +39,7 @@ code {
   position: fixed;
   bottom: 0;
   left: 0;
-  background: #999;
+  background: #666;
   width: 300px;
   border-top-right-radius: 3px;
   overflow: hidden;
@@ -50,7 +50,6 @@ code {
   padding: 0 10px;
   display: flex;
   align-items: center;
-  background: #666;
   height: 2em;
   cursor: pointer;
 }
@@ -113,9 +112,9 @@ code {
 .contact .body label {
   margin-left: 0.5rem;
   font-size: 0.75em;
-  color: #ccc;
+  color: #e4e4e4;
   height: 0.75rem;
-  transition: all 0.4s;
+  transition: all 0.2s;
   position: relative;
   top: 0;
   line-height: 1rem;
