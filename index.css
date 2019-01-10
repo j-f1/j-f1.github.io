@@ -14,14 +14,15 @@ nav a {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #ccc;
-  color: white;
+  background: #eee;
+  color: #444;
   text-decoration: none;
   font-size: 1.25em;
   transition: all 0.4s;
 }
-nav a:hover {
-  background: #aaa;
+nav a:hover, nav a:focus {
+  background: #ccc;
+  outline: none;
 }
 
 nav a::after {
